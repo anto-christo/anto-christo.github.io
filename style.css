@@ -1,0 +1,47 @@
+body,html{
+    height: 100%;
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+@media screen and (max-width: 768px) {
+    h1{
+        text-align: center;
+        font-size:30px;
+    }
+}   
+a:hover{
+    margin-bottom: 1px;
+    border-bottom: 1px solid white;
+    text-decoration: none; 
+} 
+  
+p,span{
+    color: white; 
+    font-family: "Courier";
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 35em;
+    animation: type 5s steps(60, end); 
+}
+
+p:nth-child(2),span{
+    animation: type2 8s steps(60, end);
+}
+
+@keyframes type{ 
+    from { width: 0; } 
+} 
+
+@keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+} 
+
+@keyframes blink{
+    to{opacity: .0;}
+}
