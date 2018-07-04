@@ -3,19 +3,14 @@ body,html{
     background: #667db6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
-    }
 @media screen and (max-width: 768px) {
     h1{
         text-align: center;
         font-size:30px;
     }
-}   
-a:hover{
-    margin-bottom: 1px;
-    border-bottom: 1px solid white;
-    text-decoration: none; 
-} 
+}
   
 p,span{
     color: white; 
@@ -44,4 +39,9 @@ p:nth-child(2),span{
 
 @keyframes blink{
     to{opacity: .0;}
+}
+
+a{
+    border:0.5px solid white;
+    padding:5%
 }
