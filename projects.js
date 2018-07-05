@@ -3,8 +3,9 @@ $(document).ready(function(){
         {
             name: 'WebRTC Video Calling',
             desc: `
-                A peer-to-peer web-based video calling application built entirely using WebRTC and Node.js. 
-            `
+                A peer-to-peer web-based video calling application built entirely using WebRTC and Node.js.
+            `,
+            url: 'video-calling.html'
         },
         {
             name: 'Ease C',
@@ -66,7 +67,7 @@ $(document).ready(function(){
                         <p style="text-align: justify; text-justify: inter-word;">${detail.desc}</p>
                     </div>
                     <div class="card-action">
-                        <center><button class="btn-flat waves-effect light-blue darken-4 white-text">View More</button><center>
+                        <center><a href="${detail.url}" class="btn-flat waves-effect light-blue darken-4 white-text">View More</a><center>
                     </div>
                 </div>
             </div>
