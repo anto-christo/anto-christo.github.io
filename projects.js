@@ -44,7 +44,8 @@ $(document).ready(function(){
             desc: `
                 A massive online multiplayer game built using JavaScript for Teknack 2018. Explore the isles of the
                 world, buy islands and ships to gather and trade resources to become the ultimate Lord of the Isles. 
-            `
+            `,
+            url: 'loi.html'
         },
         {
             name: 'GitStarted',
