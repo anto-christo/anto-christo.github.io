@@ -36,7 +36,8 @@ $(document).ready(function(){
             desc: `
                 A cross-platform mobile application built using React Native to provide interative courses on English
                 grammar and vocabulary. To be launched soon under the organization of Tweak Academy.
-            `
+            `,
+            url: 'tweak.html'
         },
         {
             name: 'Lords of the Isles',

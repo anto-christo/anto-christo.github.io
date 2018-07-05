@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="projects.css">
+    <title>Inherent Resolve | Anto Christopher</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo" style="margin-left:1%;font-family: Courier New">Anto Christopher</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="projects.html">Projects</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="row">
+        <div class="col m12 s12">
+            <div class="card white">
+                <div class="card-content">
+                    <a href="projects.html" style="float:right" class="btn-flat waves-effect blue darken-3 white-text">Back</a>
+                    <span class="card-title">Inherent Resolve  <a href="https://github.com/anto-christo/Inherent_Resolve" target="_blank" class="chip">View on GitHub</a></span>
+                    <div class="row">
+                        <div class="col m4 s12">
+                            <h5>Description</h5>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                Inherent Resolve was developed as a part of Teknack 2018 (an online gaming festival). It is a simple action game
+                                based on Syrian Civil War. Inherent Resolve is the name of the mission currently being undertaken by the allied forces
+                                to destroy ISIS hideouts.
+                            </p><br>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                The game features a helicopter and multiple terrorist hideouts. The player has to bomb the terrorist hideouts and score points.
+                                The best feature which also makes the game different from other games on Teknack is that the character (helicopter) can be 
+                                controlled (apart from keyboard) by a touch interface which can be opened in any mobile browser. 
+                            </p><br>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                The mobile and PC instance can be linked with each other by a randomly generated passcode shown to the user. On successfull
+                                connection, the characters can be controlled by the mobile remotely.
+                            </p>
+                            <h5>Features</h5>
+                            <ul>
+                                <li>1. Realtime controls using a mobile device.</li>
+                                <li>2. Endless gameplay.</li>
+                            </ul>
+                        </div>
+                        <div class="col m4 s12" style="margin-top:2%">
+                            <center>
+                                <img src="img/phaser.png" alt="" width="200px" height="150vh"><br>
+                                <img src="img/node.png" alt="" width="200px" height="150vh"><br>
+                                <img src="img/node-socket.png" alt="" width="200px" height="150vh"><br>
+                                <img src="img/mongo.jpg" alt="" width="200px" height="150vh"><br>
+                            </center>
+                        </div>
+                        <div class="col m4 s12">
+                            <h5>Role & Contribution</h5>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                I was the sole developer of the game. All the features mentioned were entirely coded by me.
+                            </p>
+                            <h5>Learning Experience</h5>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                I already had experience developing games using Phaser.js as the game engine and Node-Express-MongoDB as the backend.
+                                Nothing new learned here. But in my previous games, I had used Ajax to send data between the client and server. But, in this
+                                project I needed a realtime communication mechanism to control the characters. 
+                            </p><br>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                I chose Socket.io for this purpose. I had to go through a lot of tutorials to understand it's working. First, I just built a
+                                simple chat application so as to learn Socket.io. Based on that, I was finally successfull in coding the remote realtime
+                                controls.
+                            </p><br>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                This was my first encounter with Socket.io and I'm glad that I learned it since it has come to my use in other projects as well.
+                            </p><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+</body>
+</html>
