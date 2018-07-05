@@ -12,21 +12,24 @@ $(document).ready(function(){
             desc: `
                 2nd Runner Up project of MUMBAI HACKATHON 2017. Ease C is a set of 3 libraries consisting of 90
                 extremely useful and easy to use functions that are otherwise not present in the standard header files of C.
-            `
+            `,
+            url: 'easec.html'
         },
         {
             name: 'Bling',
             desc: `
                 A cross-platform mobile application proposed to be implemented at Don Bosco Institute of Technology
                 to facilitate college administration and faculties to send notices directly to one or more classes. 
-            `
+            `,
+            url: 'bling.html'
         },
         {
             name: 'Inherent Resolve',
             desc: `
                 A simple action game built using JavaScript for Teknack 2018 that can be played using the keyboard or using
                 the touch controls provided on the mobile interface by connecting the mobile and PC via a passcode. 
-            `
+            `,
+            url: 'inherent.html'
         },
         {
             name: 'Tweak',
