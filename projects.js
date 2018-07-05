@@ -52,14 +52,16 @@ $(document).ready(function(){
             desc: `
                 Project built under MUMBAI HACKATHON 2018. An attempt to promote open source by filtering out 
                 suitable projects from GitHub so as to provide users new to the world of open source with projects to begin with. 
-            `
+            `,
+            url: 'gstarted.html'
         },
         {
             name: 'Space Rush',
             desc: `
                 A space-themed endless game built using JavaScript for Teknack 2017. Manoeuvre your spaceship
                 by dodging the asteroids/planets enroute while collecting fuels to stay afloat.
-            `
+            `,
+            url: 'srush.html'
         }
     ];
 

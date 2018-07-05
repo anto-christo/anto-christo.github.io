@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="projects.css">
+    <title>GitStarted | Anto Christopher</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo" style="margin-left:1%;font-family: Courier New">Anto Christopher</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="projects.html">Projects</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="row">
+        <div class="col m12 s12">
+            <div class="card white">
+                <div class="card-content">
+                    <a href="projects.html" style="float:right" class="btn-flat waves-effect blue darken-3 white-text">Back</a>
+                    <span class="card-title">GitStarted  <a href="https://github.com/anto-christo/gitstarted" target="_blank" class="chip">View on GitHub</a></span>
+                    <div class="row">
+                        <div class="col m4 s12">
+                            <h5>Description</h5>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                GitStarted is the perfect place for exploring Open Source Projects on GitHub. Get project 
+                                recommendations based on the users past Open Source contributions just by signing in with the users 
+                                GitHub credentials.
+                            </p><br>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                Based on the languages the user has used, the number of stars and forks that 
+                                the player has on his/her owned/contributed repositories, we show you a list of projects that meets the 
+                                players current level of expertise in Open Source development. 
+                            </p><br>
+                            <p>This project was built as a part of <a href="https://mumbaihackathon.in/">Mumbai Hackathon </a>2017</p>
+                            <h5>Features</h5>
+                            <ol>
+                                <li>A bar graph illustarting the different programming languages used by you in your GitHub based Open Source projects.</li>
+                                <li>A search box to filter out projects from our recommended list based on any keyword.</li>
+                                <li>A graph illustrating the various languages that has been used in the selected project.</li>
+                                <li>Render README.MD if any in the selected project.</li>
+                                <li>Display and render issues if any in the selected project.</li>
+                            </ol>
+                        </div>
+                        <div class="col m4 s12" style="margin-top:1%">
+                            <center>
+                                <img src="img/bootstrap.png" alt="" width="200px" height="150vh"><br>
+                                <img src="img/github-js.png" alt="" width="200px" height="150vh"><br>
+                                <img src="img/express-node.jpg" alt="" width="200px" height="150vh"><br>
+                                <img src="img/firebase.png" alt="" width="200px" height="150vh"><br>
+                            </center>
+                        </div>
+                        <div class="col m4 s12">
+                            <h5>Role & Contribution</h5>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                I was one of the 3 developers who developed this project. I contributed the following features:
+                                <ol>
+                                    <li>Retrieve user informations and calculate recommendation factor.</li>
+                                    <li>Retrieve recommended projects using various GitHub wrappers.</li>
+                                    <li>Search from recommended projects based on a keyword.</li>
+                                </ol> 
+                            </p>
+                            <h5>Learning Experience</h5>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                Apart from GitHub.js, I had experience with every other technology used in the project.
+                                GitHub.js was pretty easy to use and worked as expected.
+                                Though we coded the project and presented, we did not do a lot of testing and hence we 
+                                are still not sure whether the motive of showing suitable projects based on the user is achieved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+</body>
+</html>
