@@ -67,7 +67,7 @@ $(document).ready(function(){
 
     for(var detail of projectDetails){
         var div = `
-            <div class="col m4 s12">
+            <div class="col l4 m6 s12">
                 <div class="card white">
                     <div class="card-content" style="height:200px">
                         <span class="card-title">${detail.name}</span>
