@@ -19,7 +19,7 @@ $(document).ready(function(){
             name: 'Bling',
             desc: `
                 A cross-platform mobile application proposed to be implemented at Don Bosco Institute of Technology
-                to facilitate college administration and faculties to send notices directly to one or more classes. 
+                to facilitate college administration and faculties to send notices directly to one or more classes of students. 
             `,
             url: 'bling.html'
         },
@@ -34,7 +34,7 @@ $(document).ready(function(){
         {
             name: 'Tweak',
             desc: `
-                A cross-platform mobile application built using React Native to provide interative courses on English
+                A cross-platform mobile application built using React Native to provide interactive courses on English
                 grammar and vocabulary. To be launched soon under the organization of Tweak Academy.
             `,
             url: 'tweak.html'
