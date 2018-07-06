@@ -11,37 +11,17 @@ body,html{
         font-size:30px;
     }
 }
-  
+
 p,span{
-    color: white; 
-    font-family: "Courier";
-    font-size: 20px;
-    margin: 10px 0 0 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 35em;
-    animation: type 5s steps(60, end); 
+    font-size: 1.2em;
+    color: white
 }
 
-p:nth-child(2),span{
-    animation: type2 8s steps(60, end);
+.big{
+    border:0.5px solid white; 
+    padding:5%;
 }
 
-@keyframes type{ 
-    from { width: 0; } 
-} 
-
-@keyframes type2{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100; } 
-} 
-
-@keyframes blink{
-    to{opacity: .0;}
-}
-
-a{
-    border:0.5px solid white;
-    padding:5%
+.small{
+    text-decoration: underline;
 }
