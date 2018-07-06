@@ -82,4 +82,6 @@ $(document).ready(function(){
 
         $('#project-list').append(div);
     }
+
+    $('.sidenav').sidenav();
 });
