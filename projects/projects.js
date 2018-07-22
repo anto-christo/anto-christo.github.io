@@ -74,7 +74,7 @@ $(document).ready(function(){
                         <p style="text-align: justify; text-justify: inter-word;">${detail.desc}</p>
                     </div>
                     <div class="card-action center-align">
-                        <a href="${detail.url}" class="btn-flat waves-effect light-blue darken-4 white-text">View More</a>
+                        <a href="${detail.url}" class="btn-flat waves-effect white-text" style="background-color:#3171ac">View More</a>
                     </div>
                 </div>
             </div>
