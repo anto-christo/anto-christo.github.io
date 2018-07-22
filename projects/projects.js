@@ -73,8 +73,8 @@ $(document).ready(function(){
                         <span class="card-title">${detail.name}</span>
                         <p style="text-align: justify; text-justify: inter-word;">${detail.desc}</p>
                     </div>
-                    <div class="card-action">
-                        <center><a href="${detail.url}" class="btn-flat waves-effect light-blue darken-4 white-text">View More</a><center>
+                    <div class="card-action center-align">
+                        <a href="${detail.url}" class="btn-flat waves-effect light-blue darken-4 white-text">View More</a>
                     </div>
                 </div>
             </div>
