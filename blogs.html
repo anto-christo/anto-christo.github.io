@@ -36,7 +36,7 @@
             </div>
         </nav>
     </div>
-
+    
     <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -44,20 +44,12 @@
         <li class="active"><a href="blogs.html">Blogs</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
-    
-    <div class="row">
-        <div class="col m12 s12"> 
-            <h6 class="center-align white-text" style="font-family: Century Gothic; margin-top:8%">I'll be soon writing blogs based on my experience with various technologies.</h6>
-            <h1 class="center-align white-text" style="font-family:Cutive Mono; margin-top:2%">Stay Tuned!</h1>
-        </div>
+
+    <div class="row" id="blog-list">
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.sidenav').sidenav({draggable:true});
-        });
-    </script>
+    <script src="blogs.js"></script>
 </body>
 </html>
