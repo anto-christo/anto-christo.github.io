@@ -1,8 +1,6 @@
 body, html {
     height: 100%;
-    background: #093028;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #267871;  /* fallback for old browsers */
 }
 
 @media screen and (max-width: 768px) {
@@ -12,16 +10,11 @@ body, html {
     }
 }
 
-p,span {
-    font-size: 1.2em;
-    color: white
+p, span {
+    font-size: 1.2rem;
 }
 
-.big {
+a {
     border:0.5px solid #b4d8d2; 
     padding:5%;
-}
-
-.small {
-    text-decoration: underline;
 }

@@ -16,15 +16,17 @@
     <meta name="description" content="An Open Source developer who loves to create web, mobile applications and libraries. Know more about Anto Christopher and his projects or get in touch with him."><meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
     <link rel="stylesheet" href="projects/projects.css">
 </head>
 <body>
-    <div class="navbar-fixed">
-        <nav>
+    <div class="navbar-fixed" style="font-family: Raleway">
+        <nav class="z-depth-0">
             <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo hide-on-small-only" style="margin-left:1%;font-family: Cutive Mono">Anto Christopher</a>
-                <a href="index.html" class="brand-logo hide-on-med-and-up" style="margin-left:1%;font-family: Cutive Mono">Anto</a>
+                <a href="index.html" class="brand-logo hide-on-small-only" style="margin-left:1%;">Anto Christopher</a>
+                <a href="index.html" class="brand-logo hide-on-med-and-up" style="margin-left:1%;">Anto</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="index.html">Home</a></li>
@@ -47,33 +49,31 @@
     
     <div class="row" style="margin-bottom: 0px">
         <div class="col m12 s12">
-            <div class="card white">
-                <div class="card-content">
-                    <div class="row">
-                        <div class="col m12 s12">
-                            <center>
-                                <a href="https://github.com/anto-christo" target="_blank"><img class="responsive-img" src="img/github.png" alt="" height="50px" width="50px"></a>
-                                <a href="https://www.linkedin.com/in/anto-christo/" target="_blank"><img class="responsive-img" src="img/linkedin.png" alt="" height="50px" width="50px"></a>
-                                <a href="https://twitter.com/Anto_Christo" target="_blank"><img class="responsive-img" src="img/twitter.png" alt="" height="50px" width="50px"></a>
-                                <a href="https://medium.com/@anto.christo.20" target="_blank"><img class="responsive-img" style="border-radius: 100%" src="img/medium.png" alt="" height="50px" width="50px"></a>
-                            </center>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col m2"></div>
-                        <div class="col m8">
-                            <center>
-                                <img class="responsive-img" style="border-radius: 100%; margin-top: 5%" src="img/profilepic.jpg" height="150px" width="150px" />
-                                <blockquote class="info hide-on-small-only" style="text-align: justify; text-justify: inter-word; margin-top: 5%">
-                                </blockquote><br>
-                                <p class="info hide-on-med-and-up" style="text-align: justify; text-justify: inter-word; margin-top: 5%">
-                                </p><br>
-                                <p>Do pay a visit to the <a href="projects/projects.html">projects</a> page to have a look at my side projects.</p>
-                            </center>
-                        </div>
-                        <div class="col m2"></div>
-                    </div>
+            <div class="row">
+                <div class="col m2"></div>
+                <div class="col m8">
+                    <center>
+                        <img class="responsive-img" style="border-radius: 100%; margin-top: 4rem" src="img/profilepic.jpg" height="150px" width="150px" />
+                        <p class="info" style="padding: 0.5rem; color: #dbeae8; font-size: 1.1rem; font-family: Assistant; text-align: justify; text-justify: inter-word; margin-top: 4rem">
+                            Hi, my name is Anto Christopher. I'm a final year Bachelor of Computer Engineering student from 
+                            Don Bosco Institute of Technology, Mumbai University.
+                            I have immense passion for coding and that is what I spend most of my time on. For the past few years, 
+                            I've been developing web, mobile applications and libraries/frameworks as my side projects. 
+                            I host most of these projects on GitHub to do my bit for the Open Source community. 
+                            I believe Open Source is an excellent way for students like me to learn and develop industry grade applications.
+                            Also, Open Source provides a platform to help provide free software to a large group of people. 
+                            I'm just a beginner when it comes to Open Source development, but I aim to build Open Source softwares and make an impact.
+                        </p><br>
+                    </center>
                 </div>
+                <div class="col m2"></div>
+            </div>
+            <div class="row" style="margin-top: 3rem">
+                <center>
+                    <h6 style="font-family: Raleway" class="animated bounce slower">
+                        <a href="projects/projects.html" class="btn-trans white-text">View Projects</a>
+                    </h6>
+                </center>
             </div>
         </div>
     </div>
@@ -83,14 +83,6 @@
     <script>
         $(document).ready(function() {
             $('.sidenav').sidenav({ draggable:true });
-            $('.info').html (`Hi, my name is Anto Christopher. I'm a final year Bachelor of Computer Engineering student from 
-                                    Don Bosco Institute of Technology, Mumbai University.
-                                    I have immense passion for coding and that is what I spend most of my time on. For the past few years, 
-                                    I've been developing web, mobile applications and libraries/frameworks as my side projects. 
-                                    I host most of these projects on GitHub to do my bit for the Open Source community. 
-                                    I believe Open Source is an excellent way for students like me to learn and develop industry grade applications.
-                                    Also, Open Source provides a platform to help provide free software to a large group of people. 
-                                    I'm just a beginner when it comes to Open Source development, but I aim to build Open Source softwares and make an impact.`);
         });
     </script>
 </body>
