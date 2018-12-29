@@ -68,7 +68,7 @@ $(document).ready(function(){
     for(var project of projectprojects){
         var div = `
             <div class="row">
-                <p class="white-text" style="font-size: 1.5rem;">${project.name}</p>
+                <p style="font-size: 1.5rem; color: #dfeceb">${project.name}</p>
                 <div>
                     <span style="font-size: 1.1rem; color: #b3d3d1;">${project.desc}</span>
                     <a href="${project.url}" style="color: #b3d3d1;"><u>Read More</u></a>
