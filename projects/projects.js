@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var projectDetails = [
+    var projectprojects = [
         {
             name: 'WebRTC Video Calling',
             desc: `
@@ -65,20 +65,17 @@ $(document).ready(function(){
         }
     ];
 
-    for(var detail of projectDetails){
+    for(var project of projectprojects){
         var div = `
-            <div class="col l4 m6 s12">
-                <div class="card white">
-                    <div class="card-content" style="height:200px">
-                        <span class="card-title">${detail.name}</span>
-                        <p style="text-align: justify; text-justify: inter-word;">${detail.desc}</p>
-                    </div>
-                    <div class="card-action center-align">
-                        <a href="${detail.url}" class="btn-flat waves-effect white-text" style="background-color:#3171ac">View More</a>
-                    </div>
+            <div class="row">
+                <p class="white-text" style="font-size: 1.5rem;">${project.name}</p>
+                <div>
+                    <span style="font-size: 1.1rem; color: #b3d3d1;">${project.desc}</span>
+                    <a href="${project.url}" style="color: #b3d3d1;"><u>Read More</u></a>
                 </div>
+                <hr/>
             </div>
-            `;
+        `;
 
         $('#project-list').append(div);
     }
