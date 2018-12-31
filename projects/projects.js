@@ -1,9 +1,10 @@
 $(document).ready(function(){
-    var projectprojects = [
+    var projectDetails = [
         {
             name: 'WebRTC Video Calling',
             desc: `
-                A peer-to-peer web-based video calling application built entirely using WebRTC and Node.js.
+                A peer-to-peer web-based video calling application built entirely using Web RealTime Communication (WebRTC) 
+                and Node.js signalling server.
             `,
             url: 'video-calling.html'
         },
@@ -65,15 +66,15 @@ $(document).ready(function(){
         }
     ];
 
-    for(var project of projectprojects){
+    for(var project of projectDetails){
         var div = `
             <div class="row">
-                <p style="font-size: 1.5rem; color: #dfeceb">${project.name}</p>
-                <div>
+                <a href="${project.url}" style="font-size: 1.5rem; color: #dfeceb">${project.name}</a>
+                <div style="margin-top: 1.5rem">
                     <span style="font-size: 1.1rem; color: #b3d3d1;">${project.desc}</span>
                     <a href="${project.url}" style="color: #b3d3d1;"><u>Read More</u></a>
                 </div>
-                <hr/>
+                <hr style="margin-top: 2rem; margin-bottom: 0.6rem"/>
             </div>
         `;
 

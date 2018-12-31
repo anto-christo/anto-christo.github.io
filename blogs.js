@@ -12,13 +12,13 @@ $(document).ready(function(){
     for(var blog of blogDetails){
         var div = `
         <div class="row">
-            <p style="font-size: 1.5rem; color: #dfeceb">${blog.name}</p>
+            <a href="${blog.url}" style="font-size: 1.5rem; color: #dfeceb">${blog.name}</a>
             <div>
                 <span style="font-size: 1.1rem; color: #b3d3d1;">${blog.desc}</span>
                 <a href="${blog.url}" target="_blank" style="color: #b3d3d1;"><u>Read Blog</u></a>
             </div>
-            <hr/>
-        </div>
+            <hr style="margin-top: 2rem; margin-bottom: 0.6rem"/>
+            </div>
         `;
 
         $('#blog-list').append(div);
