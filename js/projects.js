@@ -69,10 +69,10 @@ $(document).ready(function(){
     for(var project of projectDetails){
         var div = `
             <div class="row">
-                <a href="${project.url}" style="font-size: 1.5rem; color: #dfeceb">${project.name}</a>
+                <a href="projects/${project.url}" style="font-size: 1.5rem; color: #dfeceb">${project.name}</a>
                 <div style="margin-top: 1.5rem">
                     <span style="font-size: 1.1rem; color: #b3d3d1;">${project.desc}</span>
-                    <a href="${project.url}" style="color: #b3d3d1;"><u>Read More</u></a>
+                    <a href="projects/${project.url}" style="color: #b3d3d1;"><u>Read More</u></a>
                 </div>
                 <hr style="margin-top: 2rem; margin-bottom: 0.6rem"/>
             </div>
