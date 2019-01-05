@@ -13,7 +13,7 @@ $(document).ready(function(){
         var div = `
         <div class="row">
             <a href="${blog.url}" style="font-size: 1.5rem; color: #dfeceb">${blog.name}</a>
-            <div>
+            <div style="margin-top: 0.5rem">
                 <span style="font-size: 1.1rem; color: #b3d3d1;">${blog.desc}</span>
                 <a href="${blog.url}" target="_blank" style="color: #b3d3d1;"><u>Read Blog</u></a>
             </div>

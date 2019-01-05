@@ -70,7 +70,7 @@ $(document).ready(function(){
         var div = `
             <div class="row">
                 <a href="projects/${project.url}" style="font-size: 1.5rem; color: #dfeceb">${project.name}</a>
-                <div style="margin-top: 1.5rem">
+                <div style="margin-top: 0.5rem">
                     <span style="font-size: 1.1rem; color: #b3d3d1;">${project.desc}</span>
                     <a href="projects/${project.url}" style="color: #b3d3d1;"><u>Read More</u></a>
                 </div>
